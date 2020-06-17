@@ -1,0 +1,110 @@
+<html>
+    <head>
+        <title>
+
+        </title>
+        <link rel="stylesheet" type="text/css" href="billing.css"></link>
+    </head>
+    <body id="bg">
+        
+        <div id="dis">
+
+            <div id="head">
+                <img src="/home/aman/projects/masai/project_2/pics/noun_Food_3141962.png">
+                <div id="bon">Bon Appétit Cafe...</div>
+            </div>
+            
+
+            <div id="col_a">
+
+                <div>
+                    <label for="item_select">Choose your item here:</label>
+
+                    <select id="food_sel">
+                        <option value="">--Please choose an option--</option>
+
+                        <option value="">--COFFEE--</option>
+
+                        <option></option>
+
+                        <option value="Coffee Large">Coffee Large</option>
+                        <option value="Coffee Small">Coffee Small</option>
+                        <option value="Hot Chocolate Large">Hot Chocolate Large</option>
+                        <option value="Hot Chocolate Small">Hot Chocolate Small</option>
+                        <option value="Mocca Large">Mocca Large</option>
+                        <option value="Mocca Small">Mocca Small</option>
+                        <option value="Flavour Water">Flavour Water</option>
+                        <option value="Takeaway Coffee">Takeaway Coffee</option>
+
+                        <option></option>
+
+                        <option value="">--HOT SNACKS--</option>
+                        <option value="Raisin Toast">Raisin Toast</option>
+                        <option value="Chips">Chips</option>
+                        <option value="French Fry">French Fry</option>
+                        <option value="Gems">Gems</option>
+                        <option value="Ham Sandsich">Ham Sandsich</option>
+                        <option value="Chicken Gougons">Chicken Gougons</option>
+                    </select>
+                </div>
+                    
+                <div>
+                    <label for="quantity">Quantity:</label>
+                    <input type="text" id="quan" name="quan">
+                </div>
+        
+
+                <div>
+                    <button id="add" onclick="adds()">ADD</button>
+                </div>
+                <br>
+                <br>
+
+                <div>
+                    <br>
+                    <label for="discount">Discount (%):</label>
+                    <input type="text" id="disc" name="disc">
+                </div>
+
+                <div>
+                    <label for="tip">Tip (Rs.):</label>
+                    <input type="text" id="ti" name="ti">
+                </div>
+
+                <div>
+                    <button id="calc">TOTAL</button>
+                </div>
+
+            </div>
+
+            <div id="col_b">
+                <div class=top>INVOICE</div>
+                <div class="names">Bon Appétit Cafe</div>
+                <div class="ad">Koramangal, Bangalore, pin-560034</div>
+                <hr>
+                <table id="pushed">
+                    <tr>
+                        <td>ITEM</td>
+                        <td>QUANTITY</td>
+                        <td>PRICE</td>
+                    </tr>
+
+
+                </table>
+
+            </div>
+
+            <div id="foot">
+                <footer><p>© 2020 Bon Appétit Cafe</p></footer>
+
+            </div>
+
+            <script src="/home/aman/projects/masai/project_2/billing.js"></script>
+        </div>
+
+
+
+
+
+    </body>
+</html>
